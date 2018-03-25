@@ -1,0 +1,114 @@
+.body{
+    position: absolute;
+    z-index: 999;
+    background: #FFF;
+    
+}
+.msg {
+    padding: 10px;
+    margin: 10px;
+    border-left: 3px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+.error {
+    color: #F1654C;
+    border-color: #F1654C;
+}
+.success {
+    color: #2CC990;
+    border-color: #2CC990;
+}
+.cat-name {
+    position: absolute;
+    background: rgba(0,0,0,.5);
+    color: #FFF;
+    padding: 5px;
+    width: 100%;
+}
+/*************************
+*******Typography******
+**************************/
+@font-face {
+    font-family: 'Droid Arabic Kufi';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/DroidKufi-Regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Droid Arabic Kufi';
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/DroidKufi-Bold.ttf") format('truetype');
+}
+
+body {
+    font-family: 'Droid Arabic Kufi', sans-serif;
+    overflow-x: hidden;
+    background-color: #dfdfdf;
+
+}
+*{ font-family: 'Droid Arabic Kufi', sans-serif;}
+h1,h2,h3{ font-family: 'Droid Arabic Kufi', sans-serif;  padding: 10px;}
+.navbar{
+    border: 0;
+border-radius: 0;
+    margin: 0;
+}
+input,textarea,button {
+    margin-top: 10px;
+}
+
+thead{
+    background: #fff;
+}
+
+tbody{
+    background: #eee;
+}
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width:100%;
+    height:450px;
+}
+
+.travelCategory{
+
+}
+.travelCategory .item{
+    background: #FFF;
+    border-radius: 2px;
+    box-shadow: 0 0 12px #ccc;
+    position: relative;
+    margin-top: 20px;
+
+}
+.travelCategory .item h4{
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    margin: 0;
+    color: #FFF;
+    padding: 10px;
+    font-size: 16px;
+}
+.travelCategory .item img{
+    height: 200px;
+    width: 100%;
+}
+.travelCategory .item p{
+    padding: 5px;
+}
+.travelCategory .item button{
+    margin: 10px;
+}
+.footer{
+    margin-top: 20px;
+    padding: 10px;
+    background: #222;
+    color: #FFF;
+}
+
+.footer P{
+    margin:0;
+}
